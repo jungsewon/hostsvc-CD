@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: sewonjung/node-app:1.0  
+        images: sewonjung/node-app:609c3077609f3d8d837c763310a9cc27116fb617
         resources:
           limits:
             memory: "128Mi"
