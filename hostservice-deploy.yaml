@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        images: sewonjung/hostservice:609c3077609f3d8d837c763310a9cc27116fb617
+        image: sewonjung/hostservice:609c3077609f3d8d837c763310a9cc27116fb617
         resources:
           limits:
             memory: "128Mi"
